@@ -23,6 +23,7 @@ When the build is finished, Android Studio opens the google_maps_api.xml and the
 
 Step 4. Get a Google Maps API key
 Your application needs an API key to access the Google Maps servers. The type of key you need is an API key with restriction for Android apps. The key is free. You can use it with any of your applications that call the Google Maps Android API, and it supports an unlimited number of users.
+
 step 5:
  To get one, follow this link, follow the directions and press "Create" at the end:
 https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=03:86:4B:7A:25:F9:9B:99:B2:B3:5E:A2:3E:48:A1:26:15:5D:AF:32%3Bcom.example.dellpc.map
