@@ -4,6 +4,7 @@ This guide is a quick start to adding a map to an Android app. Android Studio is
 Step 1. Download Android Studio
 
 Step 2. Install the Google Play services SDK
+
 Step 3. Create a Google Maps project
 Follow these steps to create a new app project including a map activity:
 
@@ -19,10 +20,13 @@ Select Google Maps Activity in the 'Add an activity to Mobile' dialog. Then clic
 Enter the activity name, layout name and title as prompted. The default values are fine. Then click Finish.
 Android Studio starts Gradle and builds your project. This may take a few seconds. For more information about creating a project in Android Studio, see the Android Studio documentation.
 When the build is finished, Android Studio opens the google_maps_api.xml and the MapsActivity.java files in the editor. (Note that your activity may have a different name, but it will be the one you configured during setup.) Notice that the google_maps_api.xml file contains instructions on getting a Google Maps API key before you try to run the application. The next section describes getting the API key in more detail.
+
 Step 4. Get a Google Maps API key
 Your application needs an API key to access the Google Maps servers. The type of key you need is an API key with restriction for Android apps. The key is free. You can use it with any of your applications that call the Google Maps Android API, and it supports an unlimited number of users.
+step 5:
  To get one, follow this link, follow the directions and press "Create" at the end:
 https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=03:86:4B:7A:25:F9:9B:99:B2:B3:5E:A2:3E:48:A1:26:15:5D:AF:32%3Bcom.example.dellpc.map
+
 Step 6. Connect an Android device
 The simplest way to see your app in action is to connect an Android device to your computer. Follow the instructions to enable developer options on your Android device and configure your application and system to detect the device.
 
