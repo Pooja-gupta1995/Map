@@ -2,6 +2,7 @@
 This guide is a quick start to adding a map to an Android app. Android Studio is the recommended development environment for building an app with the Google Maps Android API.
 
 Step 1. Download Android Studio
+
 Step 2. Install the Google Play services SDK
 Step 3. Create a Google Maps project
 Follow these steps to create a new app project including a map activity:
